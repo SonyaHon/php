@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&subset=cyrillic');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    --p-color-light: #efefef;
+    --p-color: #bdbdbd;
+    --p-color-dark: #8d8d8d;
+    --s-color: #90a4ae;
+    --s-color-light: #c1d5e0;
+    --s-color-dark: #62757f;
+
+    font-family: 'Ubuntu Mono', monospace;
+}
+#root {
+    width: 100%;
+    height: 100%;
+    overflow-x: visible;
+    overflow-y: auto;
+    background-color: var(--p-color-light);
+}
